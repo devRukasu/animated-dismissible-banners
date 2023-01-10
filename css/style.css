@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+
+:root {
+    font-family: "Montserrat";
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.botoes {
+    appearance: none;
+    background: #ededed;
+    border: 0;
+    padding: 1rem 2rem;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin: 0.25rem;
+}
+
+.banners-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.banner-error {
+  background-color: #ed1c24;
+  color: white;
+  font-weight: 700;
+  padding: 2rem;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+}
+
+.banner-success {
+  background-color: #10c15c;
+  color: white;
+  font-weight: 700;
+  padding: 2rem;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+}
+
+.banner-info {
+  background-color: #0b22e2;
+  color: white;
+  font-weight: 700;
+  padding: 2rem;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+}
+
+.banner-message {
+    flex: 1;
+    padding: 0 2rem;
+}
