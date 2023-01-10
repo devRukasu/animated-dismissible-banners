@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/fontawesome.css"">
+    <link rel="stylesheet" href="./css/solid.css">
+    <link rel="stylesheet" href="./css/brands.css">
+    <script src="https://kit.fontawesome.com/513833e7d9.js" crossorigin="anonymous"></script>
+    <script src="js/botoes.js"></script>
+    <title>Animated Dissmisible Banners</title>
+</head>
+<body>
+    <div class="banners-container">
+        <div class="banners">
+            <div class="banner-error">
+                <i class="fa-solid fa-circle-exclamation"></i><div class="banner-message">Oops! Something went wrong!</div><i class="fa-solid fa-xmark" onclick="fecharBannerError()"></i>
+            </div>
+            <div class="banner-success">
+                <i class="fa-regular fa-circle-check"></i><div class="banner-message">Everything was fine!</div><i class="fa-solid fa-xmark" onclick="fecharBannerSucess()"></i>
+            </div>
+            <div class="banner-info">
+                <i class="fa-solid fa-circle-info"></i><div class="banner-message">Here is some useful information</div><i class="fa-solid fa-xmark" onclick="fecharBannerInfo()"></i>
+            </div>
+          </div>
+    </div>
+  <button class="botoes" onclick="showError()">Show Error</button>
+  <button class="botoes" onclick="showSucess()">Show Success</button>
+  <button class="botoes" onclick="showInfo()">Show Info</button>
+</body>
+</html>
